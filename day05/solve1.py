@@ -7,8 +7,8 @@ numbers = [int(number) for number in numbers.splitlines()]
 fresh_count = 0
 for number in numbers:
     fresh = False
-    for range in ranges:
-        if range[0] <= number <= range[1]:
+    for r in ranges:
+        if r[0] <= number <= r[1]:
             fresh = True
             break
     if fresh:

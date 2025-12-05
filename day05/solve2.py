@@ -5,7 +5,6 @@ ranges = [list(map(int, r.split("-"))) for r in ranges.splitlines()]
 ranges.sort()
 
 fresh_ingredients = 0
-
 index = 1
 start = ranges[0][0]
 end = ranges[0][1]

@@ -1,5 +1,6 @@
 from itertools import combinations
 
+
 with open("input.txt", "r") as file:
     coords = [tuple(map(int, line.split(","))) for line in file.read().splitlines()]
 

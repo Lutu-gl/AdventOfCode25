@@ -23,7 +23,6 @@ for x1, x2 in zip(x_values_sorted, x_values_sorted[1:]):
 for y1, y2 in zip(y_values_sorted, y_values_sorted[1:]):
     values_y_compressed.append(y2 - y1 - 1)
 
-
 # grid[][] with compressed coordinates with size x_values_sorted * y_values_sorted
 grid = [[0 for _ in range(len(values_x_compressed)+1)] for _ in range(len(values_y_compressed)+1)]
 
